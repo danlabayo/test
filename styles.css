@@ -36,7 +36,6 @@ nav ul li a {
 }
 
 .hero {
-    text-align: center;
     padding: 80px 20px;
     position: relative;
 }
@@ -46,13 +45,14 @@ nav ul li a {
     margin-bottom: 2rem; /* Increased space */
     font-weight: 700;
     letter-spacing: 3px;
+    text-align: left; /* Left-aligned for the title */
 }
 
 .hero h2.ai-influencers-heading {
     font-size: 2.5rem; /* Adjusted font size */
     margin-bottom: 30px;
     font-weight: 600;
-    text-align: center; /* Centered the heading */
+    text-align: center; /* Centered only for this heading */
 }
 
 .hero img {
