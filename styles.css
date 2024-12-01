@@ -144,6 +144,7 @@ footer a {
 /* -------------------------------
    AI Influencers Section Styling
    ------------------------------- */
+
 #ai-influencers {
     padding: 50px 20px;
 }
@@ -163,15 +164,9 @@ footer a {
 }
 
 #ai-influencers h7,
-#ai-influencers h11 {
-    text-align: right;
-    font-size: 4.95rem; /* 1.65 times larger than H2 */
-    margin-bottom: 15px;
-}
-
 #ai-influencers h9,
+#ai-influencers h11,
 #ai-influencers h13 {
-    text-align: left;
     font-size: 4.95rem; /* 1.65 times larger than H2 */
     margin-bottom: 15px;
 }
@@ -201,22 +196,38 @@ footer a {
 }
 
 .content-row h8,
-.content-row h12 {
+.content-row h10,
+.content-row h12,
+.content-row h14 {
     width: 100%; /* Forces it to the bottom of the row */
     text-align: left;
     margin-top: 20px;
 }
 
-.content-row h10,
-.content-row h14 {
-    width: 100%; /* Forces it to the bottom of the row */
-    text-align: right;
-    margin-top: 20px;
+/* Alignments for H7, H9, H11, H13 */
+#ai-influencers h7 {
+    text-align: right; /* Align "INNOVATE" to the right */
 }
 
-/* Center alignment for H6 description */
-p.center {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 20px;
+#ai-influencers h9 {
+    text-align: left; /* Align "TRANSFORM" to the left */
 }
+
+#ai-influencers h11 {
+    text-align: right; /* Align "MODERN" to the right */
+}
+
+#ai-influencers h13 {
+    text-align: left; /* Align "ENHANCE" to the left */
+}
+
+/* Instagram ID Styling */
+.content-row h15,
+.content-row h17,
+.content-row h19,
+.content-row h21 {
+    font-size: 1.5rem; /* Make these Instagram IDs smaller (2x smaller than their respective H14, H16, etc.) */
+    margin-top: 10px;
+}
+
+/*
