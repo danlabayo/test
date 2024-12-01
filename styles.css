@@ -144,7 +144,6 @@ footer a {
 /* -------------------------------
    AI Influencers Section Styling
    ------------------------------- */
-/* AI Influencers Section */
 #ai-influencers {
     padding: 50px 20px;
 }
@@ -160,11 +159,8 @@ footer a {
 #ai-influencers h5,
 #ai-influencers h6,
 #ai-influencers h7,
-#ai-influencers h8,
 #ai-influencers h9,
-#ai-influencers h10,
 #ai-influencers h11,
-#ai-influencers h12,
 #ai-influencers h13 {
     font-size: 2rem;
     margin-bottom: 15px;
@@ -172,6 +168,7 @@ footer a {
 
 .content-row {
     display: flex;
+    flex-wrap: wrap; /* Adjusts to smaller screens */
     gap: 20px;
     align-items: flex-start;
     margin-bottom: 30px;
@@ -193,8 +190,11 @@ footer a {
     line-height: 1.6;
 }
 
-p.center {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 20px;
+.content-row h8,
+.content-row h10,
+.content-row h12,
+.content-row h14 {
+    width: 100%; /* Forces it to the bottom of the row */
+    text-align: left;
+    margin-top: 20px;
 }
