@@ -163,9 +163,15 @@ footer a {
 }
 
 #ai-influencers h7,
+#ai-influencers h11 {
+    text-align: right;
+    font-size: 4.95rem; /* 1.65 times larger than H2 */
+    margin-bottom: 15px;
+}
+
 #ai-influencers h9,
-#ai-influencers h11,
 #ai-influencers h13 {
+    text-align: left;
     font-size: 4.95rem; /* 1.65 times larger than H2 */
     margin-bottom: 15px;
 }
