@@ -144,36 +144,57 @@ footer a {
 /* -------------------------------
    AI Influencers Section Styling
    ------------------------------- */
+/* AI Influencers Section */
 #ai-influencers {
     padding: 50px 20px;
 }
 
 #ai-influencers h2 {
-    font-size: 3rem; /* Larger font size for H2 */
+    font-size: 3rem; /* Largest header */
     text-align: left;
     margin-bottom: 20px;
 }
 
-#ai-influencers h3 {
-    font-size: 2rem; /* Smaller than H2 */
-    text-align: left;
-    margin-bottom: 20px;
+#ai-influencers h3,
+#ai-influencers h4,
+#ai-influencers h5,
+#ai-influencers h6,
+#ai-influencers h7,
+#ai-influencers h8,
+#ai-influencers h9,
+#ai-influencers h10,
+#ai-influencers h11,
+#ai-influencers h12,
+#ai-influencers h13 {
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
-.ai-influencers-content {
+.content-row {
     display: flex;
     gap: 20px;
     align-items: flex-start;
+    margin-bottom: 30px;
 }
 
-.ai-influencers-content img {
+.content-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.content-row img {
     width: 200px;
     height: auto;
-    border-radius: 8px; /* Optional rounded edges for the image */
+    border-radius: 8px;
 }
 
-.ai-influencers-content p {
+.content-row p {
     max-width: 600px;
     text-align: left;
     line-height: 1.6;
+}
+
+p.center {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
 }
