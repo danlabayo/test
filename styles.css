@@ -195,11 +195,16 @@ footer a {
 }
 
 .content-row h8,
-.content-row h10,
-.content-row h12,
-.content-row h14 {
+.content-row h12 {
     width: 100%; /* Forces it to the bottom of the row */
     text-align: left;
+    margin-top: 20px;
+}
+
+.content-row h10,
+.content-row h14 {
+    width: 100%; /* Forces it to the bottom of the row */
+    text-align: right;
     margin-top: 20px;
 }
 
