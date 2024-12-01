@@ -115,6 +115,49 @@ section h2 {
     margin-bottom: 20px;
 }
 
+/* General Section Styling */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #222;
+    margin-bottom: 20px;
+}
+
+/* AI Influencers Section Styling */
+#ai-influencers {
+    padding: 50px 20px;
+}
+
+#ai-influencers h2 {
+    font-size: 3rem; /* Larger font size for H2 */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#ai-influencers h3 {
+    font-size: 2rem; /* Smaller than H2 */
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ai-influencers-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.ai-influencers-content img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px; /* Optional rounded edges for the image */
+}
+
+.ai-influencers-content p {
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6;
+}
+
 /* Sticky Footer */
 footer {
     position: fixed; /* Make the footer fixed at the bottom */
