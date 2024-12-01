@@ -235,3 +235,39 @@ p.center {
     font-style: italic;
     margin-bottom: 20px;
 }
+
+/* References Section Styling */
+#references {
+    padding: 50px 20px;
+}
+
+#references h2 {
+    font-size: 3rem; /* Largest header for the main section */
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#references h3 {
+    font-size: 2rem; /* Header for each sub-section */
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.content-row {
+    margin-bottom: 20px;
+}
+
+.content-row p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.content-row a {
+    color: #ff7eb3;
+    text-decoration: underline;
+}
+
+.content-row a:hover {
+    color: #ff758c;
+}
