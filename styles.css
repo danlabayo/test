@@ -214,23 +214,6 @@ footer a {
     margin-top: 20px;
 }
 
-/* Alignments for H7, H9, H11, H13 */
-#ai-influencers h7 {
-    text-align: right;
-}
-
-#ai-influencers h9 {
-    text-align: left;
-}
-
-#ai-influencers h11 {
-    text-align: right;
-}
-
-#ai-influencers h13 {
-    text-align: left;
-}
-
 /* Center alignment for H6 description */
 p.center {
     text-align: center;
