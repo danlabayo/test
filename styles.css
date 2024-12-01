@@ -144,7 +144,6 @@ footer a {
 /* -------------------------------
    AI Influencers Section Styling
    ------------------------------- */
-
 #ai-influencers {
     padding: 50px 20px;
 }
@@ -230,4 +229,9 @@ footer a {
     margin-top: 10px;
 }
 
-/*
+/* Center alignment for H6 description text */
+p.center {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
