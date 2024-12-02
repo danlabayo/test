@@ -236,7 +236,9 @@ p.center {
     margin-bottom: 20px;
 }
 
-/* References Section Styling */
+/* ----------------------------
+   References Section Styling
+   ---------------------------- */
 #references {
     padding: 50px 20px;
 }
@@ -270,4 +272,13 @@ p.center {
 
 .content-row a:hover {
     color: #ff758c;
+}
+
+/* Adjustments for individual page structure */
+#ai-influencers .content-row, #references .content-row {
+    display: block;
+}
+
+#ai-influencers .content-row.reverse {
+    display: block;
 }
